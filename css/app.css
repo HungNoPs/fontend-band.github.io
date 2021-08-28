@@ -75,7 +75,7 @@ button {
 .header .menu-item {
   padding: 0 24px;
   position: relative;
-  transition: 0.2s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  transition: 0.2s linear;
 }
 .header .menu-item:hover {
   background-color: #ccd1d1;
@@ -396,6 +396,11 @@ button {
   color: #fff;
   font-size: 17px;
   display: none;
+}
+.header-menubar:hover {
+  background-color: #ccd1d1;
+  color: #000;
+  transition: 0.2s linear;
 }
 
 .menumb {

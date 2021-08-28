@@ -20,7 +20,7 @@
     &-item {
       padding: 0 24px;
       position: relative;
-      transition: 0.2s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+      transition: 0.2s linear;
       &:hover {
         background-color: #ccd1d1;
         .menu-link {
@@ -342,6 +342,11 @@
   color: #fff;
   font-size: 17px;
   display: none;
+  &:hover {
+    background-color: #ccd1d1;
+    color: #000;
+    transition: 0.2s linear;
+  }
 }
 .menumb {
   position: fixed;
