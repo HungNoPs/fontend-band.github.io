@@ -73,7 +73,6 @@ button {
   display: flex;
 }
 .header .menu-item {
-  padding: 0 24px;
   position: relative;
   transition: 0.2s linear;
 }
@@ -84,11 +83,12 @@ button {
   color: #000;
 }
 .header .menu-link {
-  line-height: 50px;
+  display: block;
+  padding: 18px 24px;
   color: #fff;
 }
 .header-search {
-  padding: 16px 30px;
+  padding: 18px 30px;
   color: #fff;
   font-size: 17px;
 }
@@ -112,14 +112,13 @@ button {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.header .submenu li {
-  padding: 15px;
-}
 .header .submenu li:hover {
   background-color: #ccc;
   transition: 0.3s linear;
 }
 .header .submenu li a {
+  padding: 15px;
+  display: block;
   color: #000;
 }
 
@@ -265,7 +264,7 @@ button {
 .tour-box li span {
   background-color: #e40303;
   color: #fff;
-  padding: 0 4px;
+  padding: 2px 6px;
   margin-left: 16px;
 }
 .tour-box li:last-child::before {
@@ -392,7 +391,7 @@ button {
 
 /* Style mobile */
 .header-menubar {
-  padding: 16px 30px;
+  padding: 18px 30px;
   color: #fff;
   font-size: 17px;
   display: none;
@@ -407,13 +406,13 @@ button {
   position: fixed;
   width: 100%;
   background-color: #0b080c;
-  top: -500px;
+  top: -400px;
   z-index: 99;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .menumb-link {
   display: block;
-  padding: 16px 28px;
+  padding: 18px 24px;
   color: #fff;
 }
 .menumb-item {

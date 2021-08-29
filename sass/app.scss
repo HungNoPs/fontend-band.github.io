@@ -19,7 +19,6 @@
   .menu {
     display: flex;
     &-item {
-      padding: 0 24px;
       position: relative;
       transition: 0.2s linear;
       &:hover {
@@ -30,12 +29,13 @@
       }
     }
     &-link {
-      line-height: 50px;
+      display: block;
+      padding: 18px 24px;
       color: #fff;
     }
   }
   &-search {
-    padding: 16px 30px;
+    padding: 18px 30px;
     color: #fff;
     font-size: 17px;
     &:hover {
@@ -62,12 +62,13 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     li {
-      padding: 15px;
       &:hover {
         background-color: #ccc;
         transition: 0.3s linear;
       }
       a {
+        padding: 15px;
+        display: block;
         color: #000;
       }
     }
@@ -210,7 +211,7 @@
       span {
         background-color: rgb(228, 3, 3);
         color: #fff;
-        padding: 0 4px;
+        padding: 2px 6px;
         margin-left: 16px;
       }
       &:last-child::before {
@@ -339,7 +340,7 @@
 }
 /* Style mobile */
 .header-menubar {
-  padding: 16px 30px;
+  padding: 18px 30px;
   color: #fff;
   font-size: 17px;
   display: none;
@@ -353,12 +354,12 @@
   position: fixed;
   width: 100%;
   background-color: #0b080c;
-  top: -500px;
+  top: -400px;
   z-index: 99;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   &-link {
     display: block;
-    padding: 16px 28px;
+    padding: 18px 24px;
     color: #fff;
   }
   &-item {
